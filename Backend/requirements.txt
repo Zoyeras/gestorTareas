@@ -1,0 +1,19 @@
+# Core Flask
+Flask>=2.3.2
+
+# ORM para bases de datos (incluye soporte para SQLite out-of-the-box)
+Flask-SQLAlchemy>=3.0.5
+
+# Permite CORS para que React (en otro puerto/dominio) pueda consumir tu API
+Flask-Cors>=3.0.11
+
+# Carga variables de entorno desde .env
+python-dotenv>=1.0.0
+
+# Para peticiones HTTP desde tu servidor (e.g., a otros servicios externos)
+requests>=2.31.0
+
+# Servidor WSGI de producción (opcional)
+gunicorn>=20.1.0
+
+Flask-JWT-Extended>=4.5.0
